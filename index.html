@@ -1,227 +1,535 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Meetup is a free responsive single page bootstrap template by designerdada.com">
-  <meta name="author" content="Akash Bhadange">
-  <title>Vancouver Women in QA</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/themify-icons.css" rel="stylesheet">
-  <link href='css/dosis-font.css' rel='stylesheet' type='text/css'>
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-    </head>
-    <body id="page-top" data-spy="scroll" data-target=".side-menu">
-      <nav class="side-menu">
-        <ul>
-          <li class="hidden active">
-            <a class="page-scroll" href="#page-top"></a>
+    <title>Women in QA, Vancouver BC</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+  </head>
+  <body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">*
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a href="index.html" class="navbar-brand"><img src="assets/img/meetup-logo.png" alt=""></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item active">
+                <a class="nav-link" href="#header-wrap">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">
+                  Team
+                </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#schedules">
+                    Events
+                  </a>
+                </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu">
+          <li>
+            <a class="page-scrool" href="#header-wrap">Home</a>
           </li>
           <li>
-            <a href="#home" class="page-scroll">
-              <span class="menu-title">Home</span>
-              <span class="dot"></span>
-            </a>
+             <a class="page-scroll" href="#schedules">Events</a>
           </li>
           <li>
-            <a href="#speakers" class="page-scroll">
-              <span class="menu-title">Team</span>
-              <span class="dot"></span>
-            </a>
-          </li>
-          <li>
-            <a href="#tickets" class="page-scroll">
-              <span class="menu-title">Sign up</span>
-              <span class="dot"></span>
-            </a>
-          </li>
-          <li>
-            <a href="#schedule" class="page-scroll">
-              <span class="menu-title">Upcoming meetups</span>
-              <span class="dot"></span>
-            </a>
+            <a class="page-scroll" href="#team">Team</a>
           </li>
         </ul>
+        <!-- Mobile Menu End -->
+
       </nav>
-      <div class="container-fluid">
-        <!-- Start: Header -->
-        <div class="row hero-header" id="home">
-          <div class="col-md-7">
-            <img src="img/meetup-logo.png" class="logo">
-            <h1>Vancouver Women in QA and Software Testing</h1>
-            <h3>Network. Learn. Inspire</h3>
-            <a href="https://goo.gl/forms/ouX8u5UQjiYgA0Uz2" class="btn btn-lg btn-red">Signup Now <span class="ti-arrow-right"></span></a>
+      <!-- Navbar End -->
 
+      <!-- Main Carousel Section Start -->
+      <div id="main-slide" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+          <li data-target="#main-slide" data-slide-to="1"></li>
+          <li data-target="#main-slide" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/slider/slide1.jpg" alt="First slide">
+            <div class="carousel-caption d-md-block">
+              <p class="fadeInUp wow" data-wow-delay=".6s">Women in Software Testing, Vancouver BC</p>
+              <h1 class="wow fadeInDown heading" data-wow-delay=".4s">Network.Learn.Inspire</h1>
+              <a href="https://goo.gl/forms/ZRbMZNqo9fABQMjz2" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">Sign Up</a>
+            </div>
           </div>
-          <div class="col-md-5 hidden-xs">
-            <img src="img/rocket.png" class="rocket animated bounce">
+          
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/slider/slide3.jpg" alt="Third slide">
+            <div class="carousel-caption d-md-block">
+              <p class="fadeInUp wow" data-wow-delay=".6s">Become a tech blooger</p>
+              <h1 class="wow fadeInUp heading" data-wow-delay=".6s">Write for us!</h1>
+              <a href="https://goo.gl/forms/pU3ZIA7QTejTw1PU2" class="fadeInUp wow btn btn-common btn-lg" data-wow-delay=".8s">Signup to be a blogger!</a>
+            </div>
           </div>
         </div>
-        <!-- End: Header -->
+        <a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
+          <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-left"></i></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#main-slide" role="button" data-slide="next">
+          <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right"></i></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+      <!-- Main Carousel Section End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+     <!-- Services Section Start -->
+    <section id="services" class="services section-padding">
       <div class="container">
-        <!-- Start: Desc -->
-        <div class="row me-row content-ct">
-          <h2 class="row-title">Why join our club?</h2>
-          <div class="col-md-4 feature">
-            <span class="ti-ticket"></span>
-            <h3>Tech blog and debates</h3>
-            <p>The club will have its own tech blog where members can post on topics of interest, have series under a topic, share best practices and scenarios.
-            Club also aims to conduct tech debates/discussions using platforms like Kialo.</p>
-          </div>
-          <div class="col-md-4 feature">
-            <span class="ti-microphone"></span>
-            <h3>QA Bootcamp</h3>
-            <p>This is exclusively for people who want to start their career as QA engineer. Nothing beats the value of a professional degree. The aim of this bootcamp is to help with some additional one-on-one sessions on various topics of QA with some hands on exercises
-            The bootcamp is structured to get a person comfortable to apply for QA internships and entry-level positions.</p> 
-          </div>
-          <div class="col-md-4 feature">
-            <span class="ti-world"></span>
-            <h3>Mentoring and Networking</h3>
-            <p>Want to start a QA career? Find a mentor who is willing to help you get there by providing professional guidance
-            Want to move to next level in your QA career? Get in touch with the experts in the community for career advice.</p>
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Why join our club?</h1>
+            </div>
           </div>
         </div>
-        <!-- End: Desc -->
-
-        <!-- Start: Speakers -->
-        <div class="row me-row content-ct speaker" id="speakers">
-          <h2 class="row-title">Meet the team</h2>
-          <div class="col-md-4 col-sm-6 feature">
-            <img src="img/vidhya.jpg" class="speaker-img">
-            <h3>Vidhya Ranganathan</h3>
-            <p>With over 8+ years of experience, she has worn many hats in QA and DevOps. Currently focused on designing custom test automation frameworks.SDET, Automation and DevOps evangelist.
-            </p>
-            <ul class="speaker-social">
-              <li><a href="https://www.facebook.com/vidhya0406"><span class="ti-facebook"></span></a></li>
-              <li><a href="https://twitter.com/vidhya0406"><span class="ti-twitter-alt"></span></a></li>
-              <li><a href="https://www.linkedin.com/in/vidhya0406/"><span class="ti-linkedin"></span></a></li>
-            </ul>
+        <div class="row services-wrapper">
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-heart"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Get Inspired</a></h3>
+              </div>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-6 feature">
-            <img src="img/divya.jpg" class="speaker-img">
-            <h3>Divya Dharshini</h3>
-            <p>Divya  has over 15 years and has played various roles predominantly in Quality assurance and testing. She is currently doing consulting in QA management. CSTE, CSQA, PMP, Scrum practitioner </p>
-            <ul class="speaker-social">
-              <li><a href="https://www.facebook.com/divyadarsini"><span class="ti-facebook"></span></a></li>
-              <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
-              <li><a href="http://linkedin.com/in/divya-darsini-gunasekaran-288a8018"><span class="ti-linkedin"></span></a></li>
-            </ul>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.4s">
+              <div class="icon">
+                <i class="lni-gallery"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Meet New Faces</a></h3>
+              </div>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-6 feature">
-            <img src="img/niranjani.jpg" class="speaker-img">
-            <h3>Niranjani</h3>
-            <p>With 12+ years of experience in quality assurance, Niranjani has played different roles across Globe India, US and Canada. PMP certified professional currently working in Coast Capital Savings</p>
-            <ul class="speaker-social">
-              <li><a href="https://www.facebook.com/niranjani.sekar.9"><span class="ti-facebook"></span></a></li>
-              <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
-              <li><a href="#"><span class="ti-linkedin"></span></a></li>
-            </ul>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
+              <div class="icon">
+                <i class="lni-envelope"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Fresh Tech Insights</a></h3>
+              </div>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-6 feature">
-            <img src="img/rajalakshmi.jpg" class="speaker-img">
-            <h3>Rajalakshmi</h3>
-            <p>Information Science graduate with 8.5 years of experience in IT industry. 
-              Rajalakshmi was a developer in the early stages of her career and now she is working as QA Automation Specialist.</p>
-            <ul class="speaker-social">
-              <li><a href="https://www.facebook.com/rajalakshmi.shivasubramani"><span class="ti-facebook"></span></a></li>
-              <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
-              <li><a href="https://www.linkedin.com/in/rajalakshmi-shivasubramani-25411017"><span class="ti-linkedin"></span></a></li>
-            </ul>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.8s">
+              <div class="icon">
+                <i class="lni-cup"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Networking Session</a></h3>
+              </div>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-6 feature">
-            <img src="img/mugil.jpg" class="speaker-img">
-            <h3>Mugil</h3>
-            <p>Mugil has over 9+ years of experience in Quality Assurance and Automation.
-              Intially started as QA Analyst and now on to QA Engineer role for past 6 years with ISTQB certification in Agile Environments</p>
-            <ul class="speaker-social">
-              <li><a href="https://www.facebook.com/mugil.kalaivanan?ref=br_rs"><span class="ti-facebook"></span></a></li>
-              <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
-              <li><a href="https://www.linkedin.com/in/mugil-kalaivanan-08915b22/"><span class="ti-linkedin"></span></a></li>
-            </ul>
+           <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="1s">
+              <div class="icon">
+                <i class="lni-user"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Bootcamps</a></h3>
+              </div>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-6 feature">
-            <img src="img/roopa.jpg" class="speaker-img">
-            <h3>Roopa</h3>
-            <p>
-              With over 10+ years of experience in QA, Roopa has played a variety of roles from technical roles to management. 
-              She is an Agile Scrum champion and is ISEB and CSM certified.</p>
-            <ul class="speaker-social">
-              <li><a href="https://www.facebook.com/roopa.thanis"><span class="ti-facebook"></span></a></li>
-              <li><a href="https://mobile.twitter.com/roopathanis"><span class="ti-twitter-alt"></span></a></li>
-              <li><a href="http://linkedin.com/in/roopa-t-42152038"><span class="ti-linkedin"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- End: Speakers -->
-      </div>
-
-      <!-- Start: Tickets -->
-      <div class="container-fluid tickets" id="tickets">
-        <div class="row me-row content-ct">
-          <h2 class="row-title">Sign up for club membership</h2>
-          <div class="col-md-4 col-sm-6 col-md-offset-2">
-            <h3>Club membership</h3>
-            <p class="price">FREE</p>
-            <a href="https://goo.gl/forms/ouX8u5UQjiYgA0Uz2" class="btn btn-lg btn-red">Sign up!</a>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <h3>Blog contributor</h3>
-            <p class="price">FREE</p>
-            <a href="https://goo.gl/forms/5bo0aNaHJ4HSKp1J2" class="btn btn-lg btn-red">Become a tech blogger!</a>
+           <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
+              <div class="icon">
+                <i class="lni-bubble"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Free Swags</a></h3>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <!-- End: Tickets -->
+    </section>
+    <!-- Services Section End -->
+    
 
-      <!-- Start: Schedule -->
+
+
+    <!-- Team Section Start -->
+    <section id="team" class="section-padding text-center">
       <div class="container">
-        <div class="row me-row schedule" id="schedule">
-          <h2 class="row-title content-ct">Upcoming events</h2>
-          <div class="col-md-12">
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation" class="active"><a href="#day-1" aria-controls="home" role="tab" data-toggle="tab">Explore QA <small class="hidden-xs">(21<sup>st</sup>, April 2018)</small></a></li>
-            </ul>
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Team</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/divya.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://www.facebook.com/divyadarsini"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+              
+                      <li><a href="http://linkedin.com/in/divya-darsini-gunasekaran-288a8018"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="#">Divya Darsini Gunasekaran</a></h3>
+                <p>QA Consultant</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/niranjani.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="ttps://www.facebook.com/niranjani.sekar.9"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/niranjani-sekar-a928a39a/"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="#">Niranjani Sekar</a></h3>
+                <p>PMP Professional, QA Analyst</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
 
-            <!-- Tab panes -->
-            <div class="tab-content">
-              <div role="tabpanel" class="tab-pane fade in active" id="day-1">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="media">
-                      <div class="media-left">
-                        <a href="#">
-                          <img class="media-object" src="img/speaker-1.png" alt="...">
-                        </a>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="0.6s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/rajalakshmi.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://www.facebook.com/rajalakshmi.shivasubramani"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/rajalakshmi-shivasubramani-25411017"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="#">Rajalakshmi Shivasubramani</a></h3>
+                <p>QA Analyst</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="0.8s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/mugil.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://www.facebook.com/mugil.kalaivanan?ref=br_rs"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/mugil-kalaivanan-08915b22/"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="#">Mugil Kalaivanan</a></h3>
+                <p>Senior software engineer QA</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="1s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/roopa.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://www.facebook.com/roopa.thanis"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="https://mobile.twitter.com/roopathanis"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="http://linkedin.com/in/roopa-t-42152038"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="#">Roopa Thanis</a></h3>
+                <p>QA Lead</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="1.2s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/vidhya.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://www.facebook.com/vidhya0406"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="https://twitter.com/vidhya0406"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/vidhya0406/"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="#">Vidhya Ranganathan</a></h3>
+                <p>Software Engineer in Test</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+        <!-- Schedule Section Start -->
+    <section id="schedules" class="schedule section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Event Schedules</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">Past and upcoming events</p>
+            </div>
+          </div>
+        </div>
+        <div class="schedule-area row wow fadeInDown" data-wow-delay="0.3s">
+          <div class="schedule-tab-title col-md-3 col-lg-3 col-xs-12">
+            <div class="table-responsive">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab" aria-controls="monday" aria-expanded="true">
+                    <div class="item-text">
+                      <h4>Saturday</h4>
+                      <h5>21 Apr 2018</h5>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix">
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="monday" role="tabpanel" aria-labelledby="monday-tab">
+                <div id="accordion">
+                  <div class="card">
+                    <div id="headingOne">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/rocket.png" alt="">
+                        </div>                     
+                        <span class="time">8:30am - 12:30pm</span>
+                        <h4>Explore QA - A brief introduction about Software Testing and market trends</h4>
                       </div>
-                      <div class="media-body">
-                        <h4 class="media-heading">8.30am to 12:30pm</h4>
-                        <h5>Explore QA</h5>
-                        <p>A brief on QA as a career and the path to the same</p>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>Basic concepts in software testing, real life examples on how the concepts are applied, test automation frameworks, market insights, interview tips and insights on how to be successful in this career</p>
+                        <div class="location">
+                          <span>Location:</span> Surrey, BC, Canada
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- End: Schedule -->
+    </section>
+    <!-- Schedule Section End -->
 
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="js/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/jquery.easing.min.js"></script>
-      <script src="js/scrolling-nav.js"></script>
-      <script src="js/validator.js"></script>
-    </body>
-    </html>
+    <!-- Sponsors Section Start -->
+    <section id="sponsors" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Sponsors</h1>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
+          <div class="col-12 text-center">
+            <a href="https://goo.gl/forms/yXKObYSImTkAPMPk2" class="btn btn-common">become a sponsor</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sponsors Section End -->
+
+    <!-- Subscribe Area Start -->
+    <div id="subscribe" class="section-padding">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-md-10 col-lg-7">
+            <div class="subscribe-inner wow fadeInDown" data-wow-delay="0.3s">
+              <h2 class="subscribe-title">Sign Up For Our Newsletter</h2>
+                <!-- Begin MailChimp Signup Form -->
+  <form action="https://netlify.us18.list-manage.com/subscribe/post?u=6e5cfbfc13a20bfde6d74cfd7&amp;id=ee20d72917" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="text-center form-inline" target="_blank" novalidate>
+  <input type="email" value="" name="EMAIL" class="mb-20 form-control" id="mce-EMAIL" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6e5cfbfc13a20bfde6d74cfd7_ee20d72917" tabindex="-1" value=""></div>
+    <button type="submit" name="subscribe" value="Submit" data-style="zoom-in" data-spinner-size="s" id="mc-embedded-subscribe" class="btn btn-common sub-btn">
+    <span class="ladda-label"><i class="lni-check-box"></i> Submit</span>
+    </button>
+</form>
+
+<!--End mc_embed_signup-->
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Subscribe Area End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer-area section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+            <h3>QUICK LINKS</h3>
+            <ul>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#schedules">Events</a></li>
+              <li><a href="https://goo.gl/forms/ZRbMZNqo9fABQMjz2">Signup</a></li>
+              <li><a href="https://goo.gl/forms/yXKObYSImTkAPMPk2">Sponsor us!</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
+            <!-- /.widget -->
+            <div class="widget">
+              <h5 class="widget-title">FOLLOW US ON</h5>
+              <ul class="footer-social">
+                <li><a class="facebook" href="https://www.facebook.com/vanwinqa/"><i class="lni-facebook-filled"></i></a></li>
+                <li><a class="twitter" href="https://twitter.com/VanWinqa"><i class="lni-twitter-filled"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <div id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="site-info">
+              <p>© Theme by <a href="http://uideck.com" rel="nofollow">UIdeck</a></p>
+            </div>      
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    	<i class="lni-chevron-up"></i>
+    </a>
+
+    <div id="preloader">
+      <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+      
+  </body>
+</html>
